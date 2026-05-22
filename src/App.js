@@ -250,6 +250,7 @@ export default function OddOneOut() {
   const [timedOut, setTimedOut] = useState(false);
   const [showHint, setShowHint] = useState(false);
   const [totalTime, setTotalTime] = useState(0);
+  console.log(totalTime)
 
   const cfg = difficulty ? DIFFICULTY_CONFIG[difficulty] : null;
   const q = questions[current];
